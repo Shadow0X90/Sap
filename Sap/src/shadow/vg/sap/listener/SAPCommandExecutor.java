@@ -11,11 +11,11 @@ import org.bukkit.inventory.ItemStack;
 
 import shadow.vg.sap.SapMain;
 
-public class CommandListener implements CommandExecutor{
+public class SAPCommandExecutor implements CommandExecutor{
 	private final SapMain plugin;
 	String pluginName = ChatColor.BLUE + "[SAP] ";
 	ChatColor green = ChatColor.GREEN;
-	public CommandListener(SapMain plugin) {
+	public SAPCommandExecutor(SapMain plugin) {
 		this.plugin = plugin;
 	}
 	//TODO: fix this command below.
@@ -62,4 +62,3 @@ public class CommandListener implements CommandExecutor{
 		return false; 
 	}
 }
-
