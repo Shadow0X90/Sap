@@ -1,0 +1,9 @@
+name: SAP
+main: shadow.vg.sap.SapMain
+version: 0.1
+commands:
+   give:
+      description: Shadow Admin Panel - Give command.
+      usage: /<command> [player] [item] [ammount]
+      permission: sap.cheat.give
+      permission-message: You don't have <permission>
